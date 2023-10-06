@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Pacientes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Registro de Pacientes</h1>
+
+    <div id="paciente-form">
+        <input type="text" id="nombre" placeholder="Nombre">
+        <input type="number" id="edad" placeholder="Edad">
+        <input type="text" id="genero" placeholder="Género">
+        <input type="tel" id="telefono" placeholder="Telefono">
+        <input type="text" id="diagnostico" placeholder="Diagnóstico Médico">
+        <button onclick="agregarPaciente()">Agregar Paciente</button>
+    </div>
+
+    <div id="buscar-form">
+
+        <h2>Buscar pacientes</h2>
+
+        <input type="text" id="buscar-nombre" placeholder="Ingrese nombre">
+        <button onclick="buscarPorNombre()">Buscar por Nombre</button>
+        <input type="text" id="buscar-diagnostico" placeholder="Ingrese el diagnóstico">
+        <button onclick="buscarPorDiagnostico()">Buscar por Diagnóstico</button>
+    </div>
+
+    <div id="pacientes-lista">
+        <h2>Lista de Pacientes</h2>
+        <ul id="lista"></ul>
+    </div>
+
+    <div id="estadisticas">
+        <h2>Estadísticas</h2>
+        <p>Número total de pacientes: <span id="total-pacientes">0</span></p>
+        <p>Edad promedio de pacientes: <span id="edad-promedio">0</span></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

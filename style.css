@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0 50px;
+    margin: auto;
+    width: 1000px;
+    height: 1200px;
+    border: 3px solid #ec8f25;
+    margin-top: 30px;
+
+}
+
+h1 
+{
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 3px solid #ec8f25;
+    background-color: #ec9530;
+    border-radius: 5px;
+    width: 800px;
+    text-align: center;
+}
+
+#paciente-form
+{
+    width: 300px;
+    height: 260px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+    background-color: #ffefdd;
+    border: 2.5px solid #f7b016;
+    border-radius: 10px;
+}
+
+#buscar-form
+{
+    width: 300px;
+    height: 270px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    background-color: #ffefdd;
+    border: 2.5px solid #f7b016;
+    border-radius: 10px;
+
+}
+
+input 
+{
+    padding: 5px;
+    color: #000;
+    border: none;
+    outline: none;
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #eec144;
+    color: #fff;
+    font-size: 0.8rem;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 18px;
+}
+
+button:hover {
+    background-color: #e0a606;
+}
+
+#pacientes-lista 
+{
+    padding: 10px;
+    max-width: 500px;
+    border: 2.5px solid #f7b016;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    width: 400px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+button.delete-button 
+{
+    background-color: #ff5252;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+h2
+{
+    text-align: center;
+}
+
+button.delete-button:hover {
+    background-color: #d50000;
+}
+
+#estadisticas 
+{
+    border: 2.5px solid #f3bc44;
+    background-color: #ffde85;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    max-width: 350px;
+    display: block;
+    margin: 0 auto;
+}
